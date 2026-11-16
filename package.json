@@ -1,0 +1,16 @@
+{
+  "name": "@local/deepseek-harness-docs",
+  "version": "1.0.0",
+  "description": "Creates and maintains a project-specific dsh_docs directory of Markdown knowledge for DeepSeek Harness.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
