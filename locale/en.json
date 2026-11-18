@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "DeepSeek Harness Docs",
-    "description": "Creates and maintains a project-specific dsh_docs directory of Markdown knowledge for DeepSeek Harness."
+    "description": "Creates, validates, and maintains a project-specific dsh_docs directory of Markdown knowledge for DeepSeek Harness."
   }
 }
